@@ -19,3 +19,4 @@ def retry(func, retries=3, delay=2, *args, **kwargs):
             last_exc = e
             time.sleep(delay)
     raise last_exc
+    #break
